@@ -1,0 +1,65 @@
+.serviceList {
+  padding: 20px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.serviceName {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.stylist {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 12px;
+}
+
+.bookBtn {
+  padding: 8px 16px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bookBtn:hover {
+  opacity: 0.8;
+}

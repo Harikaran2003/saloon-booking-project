@@ -1,0 +1,50 @@
+.servicesContainer {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: #f4f6f8;
+  min-height: 80vh;
+}
+
+.serviceCard {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.serviceName {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.servicePrice {
+  font-size: 1rem;
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.bookBtn {
+  padding: 8px 15px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bookBtn:hover {
+  background: #2980b9;
+}
